@@ -1,5 +1,5 @@
 # Plant-leaf-infection-detection
-This is the source code for our work submitted for review at Agronomy for Sustainable Development. The respository contains the code as well as the data used for the simulations. 
+This is the source code for our work submitted for review at Elsevier Journal of Computers and Electronics in Agriculture. The respository contains the code as well as the data used for the simulations. 
 
 The dataset is taken from PlanVillage dataset from Sharada Mohanty https://github.com/spMohanty/PlantVillage-Dataset
 
