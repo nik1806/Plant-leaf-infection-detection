@@ -4,7 +4,7 @@ Created on Tue Aug 28 22:14:29 2018
 
 @author: nikhil
 """
-
+#This is the code for leaf_classification
 def meanSD(filename):
     file = open(filename, 'r+')
     content = file.read()
