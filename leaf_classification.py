@@ -21,7 +21,7 @@ if __name__ == '__main__':
     bac_mean = meanSD('../bacterial_result.txt') 
     
     #change name for different leaf type
-    file = open('bacterial_test_result.txt','r+')
+    file = open('healthy_test_result.txt','r+')
     content = file.read()
     lines = content.split('\n')
     line_cnt = len(lines)
