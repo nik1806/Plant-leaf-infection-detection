@@ -77,7 +77,7 @@ def excGrnApp(b, g, r, pmin, pmax):
  
 #contour based region fill    
 def regionfill(img):
-    _,contour, hier = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    contour, hier = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     Ar = 0
     
@@ -111,7 +111,7 @@ def lloret(b, g, r, img):
     
 #Calculating area of the contour
 def calArea(img):
-    _,contour, hier = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    contour, hier = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     Ar = 0
     
